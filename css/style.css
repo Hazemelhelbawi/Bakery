@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+font-family: 'Alegreya', serif;
+scroll-behavior: smooth;
+}
+/* home page */
+.homePage{
+    background-image: url(../images/drew-coffman-1872.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+ font-family: 'Alegreya', serif;
+
+}
+.homePage h4{
+    font-size: 30px;
+}
+.homePage h1{
+    font-size: 80px;
+    font-weight: 800;
+}
+.homePage p{
+    font-size: 20px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+.button{
+    padding: 15px 30px;
+    margin-top: 50px;
+    border: none;
+    font-family: 'Alegreya', serif;
+    color: white;
+    border-radius: 5px;
+    font-weight: 400;
+
+}
+.btn1{
+    background-color: #8e7754;
+}
+.btn2{
+    background-color: transparent;
+    border: white 2px solid;
+}
+.btn1:hover{
+    background-color: white;
+    color: black;
+}
+.btn2:hover{
+    background-color: white;
+    color: black;
+}
+.navbar{
+    opacity: 90%;
+}
+.nav-link:hover{
+    color: #76603f!important;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+    color: #896834!important;
+}
+.nav-link{
+    font-weight: 500;
+}
+.inner-body{
+    font-family: 'Alegreya', serif;
+}
+.inner-body h3{
+    font-size: 40px;
+    
+}
+.inner-body p{
+    font-size: 16px;
+    color: #696767;
+
+    line-height: 25px;
+}
+/* Who we are */
+.infoItem{
+    font-family: 'Alegreya', serif;
+    font-size: 20px;
+
+}
+.icons{
+    color: #896834;
+    width: 35px;
+    height: 35px;
+}
+.icon{
+    color: #896834;
+
+}
+.infoItem li{
+    font-family: 'Alegreya', serif;
+
+}
+
+
+
+/* footer */
+#footer{
+    background-color: #403d38;
+    padding-top: 20px;
+}
+#lastFooter{
+    background-color: #353330;
+}
+.fa-facebook:hover{
+color:rgb(10, 10, 133);
+}
+.fa-google:hover{
+color:rgb(175, 6, 6);
+}
+.fa-linkedin:hover{
+color:rgb(45, 45, 215);
+}
+.fa-twitter:hover{
+color:cyan;
+}
+.backgroundImageFooter{
+    position:absolute;
+    top: 25%;
+    bottom: 0;
+    left:70%;
+    right: 0;
+
+}
+
+.iconSetting{
+    right: 0%;
+    bottom: 50%;
+    z-index: 999999999;
+    
+}
+
+.iconUp{
+    right: 3%;
+    bottom: 3%;
+    z-index: 999999999;
+}
